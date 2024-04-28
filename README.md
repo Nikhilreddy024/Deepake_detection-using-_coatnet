@@ -6,9 +6,9 @@ small_model(coatnet-0).pth - 200MB. <br />
 
 
 ### Preprocessing
-'''bash
-python FaceExtraction.py 
-'''
+
+---python FaceExtraction.py 
+
 &nbsp;&nbsp;&nbsp;Face extraction from video. <br /> 
 &nbsp;&nbsp;&nbsp;The code works for DFDC dataset. You can test it using the sample data provided. 
 
@@ -16,6 +16,10 @@ Move the DFDC data chunks to the 'preprocessing/data' folder, then execute FaceE
 
 
 ### Train Coatnet
+
+
+---python coatnet_train.py -e 10 -s 'g' -l 0.0001 -w 0.0000001 -d "path_to_folder" 
+
 To train the model on your own you can use the following parameters:<br />
 &nbsp;&nbsp;e: epoch <br/>
 &nbsp;&nbsp;s: session - **(g)** - GPU or **(t)** - TPU <br/>
@@ -24,17 +28,13 @@ To train the model on your own you can use the following parameters:<br />
 &nbsp;&nbsp;d: path file <br/>
 &nbsp;&nbsp;b: batch size, defualt=32 <br/>
 
-'''bash
-python coatnet_train.py -e 10 -s 'g' -l 0.0001 -w 0.0000001 -d "path_to_folder" 
-'''
-
 The model is fed the data from the '/face_data' directory and stores its weights in the '/weights' folder.
 
 
 ### Predict Coatnet
-'''bash
-python coatnet_prediction.py 
-'''
+
+
+---python coatnet_prediction.py
 
 &nbsp;&nbsp;&nbsp; Predicts whether a video is Deepfake or not.<br />
 &nbsp;&nbsp;&nbsp; Prediction value <0.5 - REAL <br />
