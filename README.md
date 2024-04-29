@@ -49,7 +49,7 @@ If you intend to use only single chunk of the dfdc dataset.use this file to dist
 '''Check out our blog, "https://medium.com/@jithendra.katta/deepfake-detection-using-convolutions-with-attention-coatnet-78c8b9f4d69d" to learn more about the code.'''
 
 ##Credits:
-This Work is truly inspired by the work done by CViT: https://github.com/erprogs/CViT <br/>
+This approach is inspired by the work done by CViT: https://github.com/erprogs/CViT <br/>
 and an experiment of implemeting CoAtNet: https://arxiv.org/abs/2106.04803
 
 
