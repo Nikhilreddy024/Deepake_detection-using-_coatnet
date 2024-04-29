@@ -41,6 +41,11 @@ The model is fed the data from the '/face_data' directory and stores its weights
 &nbsp;&nbsp;&nbsp; Prediction value >=5  - FAKE
 
 
+---python distribution.py
+
+If you intend to use only single chunk of the dfdc dataset.use this file to distribute single dfdc folder into multiple dfdc folders maintaining integrity of real and fake videos.
+
+
 '''Check out our blog, "https://medium.com/@jithendra.katta/deepfake-detection-using-convolutions-with-attention-coatnet-78c8b9f4d69d" to learn more about the code.'''
 
 ##Credits:
