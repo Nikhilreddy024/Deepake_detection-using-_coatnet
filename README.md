@@ -43,5 +43,11 @@ The model is fed the data from the '/face_data' directory and stores its weights
 
 '''Check out our blog, "https://medium.com/@jithendra.katta/deepfake-detection-using-convolutions-with-attention-coatnet-78c8b9f4d69d" to learn more about the code.'''
 
+##Credits:
+This Work is truly inspired by the work done by CViT: https://github.com/erprogs/CViT <br/>
+and an experiment of implemeting CoAtNet: https://arxiv.org/abs/2106.04803
+
+
+
 
 
