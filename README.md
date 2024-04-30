@@ -45,6 +45,11 @@ The model is fed the data from the '/face_data' directory and stores its weights
 
 If you intend to use only single chunk of the dfdc dataset.use this file to distribute single dfdc folder into multiple dfdc folders maintaining integrity of real and fake videos.
 
+Note : While downloading necessary libraries, Dlib throws error
+       To install dlib using a wheel file, you'll need to download the one compatible with your Python version.
+       Download the wheel and 
+       run "pip install path_to_dlib_whl"
+
 
 '''Check out our blog, "https://medium.com/@jithendra.katta/deepfake-detection-using-convolutions-with-attention-coatnet-78c8b9f4d69d" to learn more about the code.'''
 
